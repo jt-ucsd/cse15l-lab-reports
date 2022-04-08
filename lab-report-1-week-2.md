@@ -50,7 +50,11 @@ class HelloWorld {
 
 ## Setting up an SSH Key
 ---
-words
+1) Install and run PowerShell.  You will need to run `# Start-Service ssh-agent`, followed by `# Get-Service ssh-agent`, which should tell you that it is running.
+
+2) Now, on PowerShell, type `ssh-keygen` and just use the default for everything.  When it prompts to enter a passphrase, just hit return so you don't have to type in a password.  If you did this correctly, you will find two files created in `users/username/.ssh`
+
+3) Now you will need to copy the public key called id_rsa.pub by using `scp id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`.  Remember to redirect to the folder.  Afterwards, try to login again and you won't need to use your password.
 
 ## Optimizing Remote Running
 ---
