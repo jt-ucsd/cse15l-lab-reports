@@ -67,4 +67,6 @@ class HelloWorld {
 ---
 1) You can optimize remote running by combining multiple commands into one line.  A `;` will allow you to run multiple commands on the same line for most terminals while a `"` lets you run commands remotely on the server.
 
+Example: `scp HelloWorld.java cs15lsp22atu@ieng6.ucsd.edu:~/; ssh cs15lsp22atu@ieng6.ucsd.edu "ls; javac HelloWorld.java; java HelloWorld"`
+
 ![Example of MultiLine Command](https://raw.githubusercontent.com/jt-ucsd/cse15l-lab-reports/main/MultiLine%20Command.jpg)
