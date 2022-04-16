@@ -69,4 +69,4 @@ class HelloWorld {
 
 Example: `scp HelloWorld.java cs15lsp22atu@ieng6.ucsd.edu:~/; ssh cs15lsp22atu@ieng6.ucsd.edu "ls; javac HelloWorld.java; java HelloWorld"`
 
-![Example of MultiLine Command](https://raw.githubusercontent.com/jt-ucsd/cse15l-lab-reports/main/MultiLine%20Command.jpg)
+![Example of MultiLine Command](https://raw.githubusercontent.com/jt-ucsd/cse15l-lab-reports/main/SSH%20Multiline%20Command.jpg)
